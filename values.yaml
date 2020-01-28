@@ -371,30 +371,30 @@ elasticsearch:
 
     thread_pool.bulk.queue_size: 800
 
-    # path:
-    #   data: /usr/share/elasticsearch/data
-    #   logs: /usr/share/elasticsearch/logs
+    path:
+      data: /usr/share/elasticsearch/data
+      logs: /usr/share/elasticsearch/logs
 
-    # http:
-    #   enabled: ${HTTP_ENABLE}
-    #   compression: true
+    http:
+      enabled: ${HTTP_ENABLE}
+      compression: true
 
-    # discovery:
-    #   zen:
-    #     ping.unicast.hosts: ${DISCOVERY_SERVICE}
-    #     minimum_master_nodes: ${NUMBER_OF_MASTERS}
+    discovery:
+      zen:
+        ping.unicast.hosts: ${DISCOVERY_SERVICE}
+        minimum_master_nodes: ${NUMBER_OF_MASTERS}
 
-    # # TLS Configuration Transport Layer
-    # opendistro_security.ssl.transport.pemcert_filepath: elk-transport-crt.pem
-    # opendistro_security.ssl.transport.pemkey_filepath: elk-transport-key.pem
-    # opendistro_security.ssl.transport.pemtrustedcas_filepath: elk-transport-root-ca.pem
-    # opendistro_security.ssl.transport.enforce_hostname_verification: false
+    # TLS Configuration Transport Layer
+    opendistro_security.ssl.transport.pemcert_filepath: elk-transport-crt.pem
+    opendistro_security.ssl.transport.pemkey_filepath: elk-transport-key.pem
+    opendistro_security.ssl.transport.pemtrustedcas_filepath: elk-transport-root-ca.pem
+    opendistro_security.ssl.transport.enforce_hostname_verification: false
 
     # # TLS Configuration REST Layer
     opendistro_security.ssl.http.enabled: false
-    # opendistro_security.ssl.http.pemcert_filepath: elk-rest-crt.pem
-    # opendistro_security.ssl.http.pemkey_filepath: elk-rest-key.pem
-    # opendistro_security.ssl.http.pemtrustedcas_filepath: elk-rest-root-ca.pem
+    opendistro_security.ssl.http.pemcert_filepath: elk-rest-crt.pem
+    opendistro_security.ssl.http.pemkey_filepath: elk-rest-key.pem
+    opendistro_security.ssl.http.pemtrustedcas_filepath: elk-rest-root-ca.pem
 
   log4jConfig: ""
 
