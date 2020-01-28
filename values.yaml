@@ -345,7 +345,7 @@ elasticsearch:
     #              role: client
     podAnnotations: {}
 
-  config: {}
+  config: 
     ## Example Config
     opendistro_security.allow_unsafe_democertificates: false
     opendistro_security.allow_default_init_securityindex: true
