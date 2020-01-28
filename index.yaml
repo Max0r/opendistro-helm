@@ -3,9 +3,9 @@ entries:
   opendistro-es:
   - apiVersion: v1
     appVersion: 1.3.0
-    created: "2020-01-28T14:57:28.237583-06:00"
+    created: "2020-01-28T15:31:16.802801-06:00"
     description: Open Distro for Elasticsearch
-    digest: 4f69d40846647b2d162a4d2a890ac897b1bb972b29759c9306ab3a0a7b1f20f1
+    digest: 33c6c9ee54c6557944ff31642289c58b1e210dd660d3244dcb9ab402740814db
     kubeVersion: ^1.10.0-0
     maintainers:
     - email: derek.heldt-werle@viasat.com
@@ -18,4 +18,4 @@ entries:
     urls:
     - https://max0r.github.io/opendistro-helm/opendistro-es-1.3.0.tgz
     version: 1.3.0
-generated: "2020-01-28T14:57:28.233409-06:00"
+generated: "2020-01-28T15:31:16.797086-06:00"

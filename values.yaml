@@ -391,7 +391,7 @@ elasticsearch:
     # opendistro_security.ssl.transport.enforce_hostname_verification: false
 
     # # TLS Configuration REST Layer
-    # opendistro_security.ssl.http.enabled: true
+    opendistro_security.ssl.http.enabled: false
     # opendistro_security.ssl.http.pemcert_filepath: elk-rest-crt.pem
     # opendistro_security.ssl.http.pemkey_filepath: elk-rest-key.pem
     # opendistro_security.ssl.http.pemtrustedcas_filepath: elk-rest-root-ca.pem
