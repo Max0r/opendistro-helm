@@ -347,29 +347,29 @@ elasticsearch:
 
   config: {}
     ## Example Config
-    # opendistro_security.allow_unsafe_democertificates: false
-    # opendistro_security.allow_default_init_securityindex: true
-    # opendistro_security.audit.type: internal_elasticsearch
-    # opendistro_security.enable_snapshot_restore_privilege: true
-    # opendistro_security.check_snapshot_restore_write_privileges: true
-    # cluster.routing.allocation.disk.threshold_enabled: false
-    # opendistro_security.audit.config.disabled_rest_categories: NONE
-    # opendistro_security.audit.config.disabled_transport_categories: NONE
-    # cluster:
-    #   name: ${CLUSTER_NAME}
-    # node:
-    #   master: ${NODE_MASTER}
-    #   data: ${NODE_DATA}
-    #   name: ${NODE_NAME}
-    #   ingest: ${NODE_INGEST}
-    #   max_local_storage_nodes: 1
-    #   attr.box_type: hot
+    opendistro_security.allow_unsafe_democertificates: false
+    opendistro_security.allow_default_init_securityindex: true
+    opendistro_security.audit.type: internal_elasticsearch
+    opendistro_security.enable_snapshot_restore_privilege: true
+    opendistro_security.check_snapshot_restore_write_privileges: true
+    cluster.routing.allocation.disk.threshold_enabled: false
+    opendistro_security.audit.config.disabled_rest_categories: NONE
+    opendistro_security.audit.config.disabled_transport_categories: NONE
+    cluster:
+      name: ${CLUSTER_NAME}
+    node:
+      master: ${NODE_MASTER}
+      data: ${NODE_DATA}
+      name: ${NODE_NAME}
+      ingest: ${NODE_INGEST}
+      max_local_storage_nodes: 1
+      attr.box_type: hot
 
-    # processors: ${PROCESSORS:1}
+    processors: ${PROCESSORS:1}
 
-    # network.host: ${NETWORK_HOST}
+    network.host: ${NETWORK_HOST}
 
-    # thread_pool.bulk.queue_size: 800
+    thread_pool.bulk.queue_size: 800
 
     # path:
     #   data: /usr/share/elasticsearch/data
